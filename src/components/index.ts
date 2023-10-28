@@ -5,6 +5,7 @@ import Footer from "./footer";
 import TopProducts from "./topProducts";
 import ProductCard from "./productCard";
 import AboutBanner from "./aboutBanner";
+import LocationComponent from "./locationComponent";
 
 export {
   Hero,
@@ -14,4 +15,5 @@ export {
   TopProducts,
   ProductCard,
   AboutBanner,
+  LocationComponent,
 };
