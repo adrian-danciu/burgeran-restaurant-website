@@ -16,7 +16,7 @@ const AboutBanner = () => {
           refined toasts made only with carefully chosen ingredients
         </p>
         <div className="flex flex-row justify-center items-center gap-10">
-          <div className="h-[200px] flex flex-col w-full justify-center items-start border-[2px] border-primary p-5 rounded-xl gap-2">
+          <div className="h-[200px] flex flex-col w-full justify-center items-center border-[2px] border-primary p-5 rounded-xl gap-2">
             <img src={burger3} className="h-20 w-20" />
             <div className="flex flex-col gap-2">
               <h1 className="font-subtitle text-primary text-xl">Burgers</h1>
@@ -25,7 +25,7 @@ const AboutBanner = () => {
               </p>
             </div>
           </div>
-          <div className="h-[200px] flex flex-col w-full justify-center items-start border-[2px] border-primary p-5 rounded-xl gap-2">
+          <div className="h-[200px] flex flex-col w-full justify-center items-center border-[2px] border-primary p-5 rounded-xl gap-2">
             <img src={sand2} className="h-20 w-20" />
             <div className="flex flex-col">
               <h1 className="font-subtitle text-primary text-xl">Toast</h1>
