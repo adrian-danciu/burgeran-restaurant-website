@@ -1,3 +1,61 @@
 @tailwind base;
 @talwind componentsș;
 @tailwind utilities;
+
+.fullscreen-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 1);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullscreen-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.fullscreen-nav li {
+  margin: 10px 0;
+}
+
+.fullscreen-nav a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.fullscreen-nav a:hover {
+  color: #ddd;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.close-btn:focus {
+  outline: none;
+}
+
+/* .hero-bg {
+  background-image: url("./assets/img/hero-bg.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+} */
+
+.hero-bg {
+  background-color: black;
+}
