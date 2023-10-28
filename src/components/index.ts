@@ -1,6 +1,6 @@
-import Hero from "./Hero";
-import Navbar from "./Navbar";
-import MobileNavbar from "./MobileNavbar";
-import Footer from "./Footer";
+import Hero from "./heroBanner";
+import Navbar from "./desktopNavbar";
+import MobileNavbar from "./mobileNavbar";
+import Footer from "./footer";
 
 export { Hero, Navbar, MobileNavbar, Footer };
