@@ -55,10 +55,6 @@ const MobileNavbar: React.FC = () => {
             X
           </button>
           <div className="flex flex-col justify-center items-center gap-10 w-full">
-            <div className="flex flex-col justify-center items-center gap-2">
-              <img src={logo} className="w-20 h-20" />
-              <p className="font-subtitle text-headline text-3xl">Burgeran</p>
-            </div>
             <ul className="w-full">
               {navLinks.map((link) => (
                 <li
@@ -75,10 +71,14 @@ const MobileNavbar: React.FC = () => {
                 </li>
               ))}
             </ul>
-            <div className="flex flex-col justify-center items-center gap-2 font-subtitle text-primary text-base">
+            <div className="flex flex-col justify-center items-center gap-2 font-subtitle text-primary text-lg">
               <p>Call us at: 1293732193127</p>
               <p>Open: 10:00 - 23:00</p>
               <p>Address: 1234 Street, City</p>
+            </div>
+            <div className="flex flex-col justify-center items-center gap-2">
+              <img src={logo} className="w-20 h-20" />
+              <p className="font-subtitle text-headline text-3xl">Burgeran</p>
             </div>
           </div>
         </div>

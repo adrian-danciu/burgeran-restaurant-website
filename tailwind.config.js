@@ -24,6 +24,7 @@ export default {
         subtitle: "#fffffe",
         secondary: "#f25f4c",
         tertiary: "#e53170",
+        cards: "#fef6e4"
 
 
       }
