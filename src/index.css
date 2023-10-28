@@ -48,3 +48,7 @@
 .close-btn:focus {
   outline: none;
 }
+
+.btn {
+  @apply w-full bg-primary  p-3 rounded-xl font-text md:text-xl text-base mt-10 mb-10;
+}

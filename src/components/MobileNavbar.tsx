@@ -55,20 +55,15 @@ const MobileNavbar: React.FC = () => {
             X
           </button>
           <div className="flex flex-col justify-center items-center gap-10 w-full">
-            <ul className="w-full">
+            <ul className="w-full flex flex-col justify-center items-center gap-4 mt-5">
               {navLinks.map((link) => (
-                <li
-                  key={link.link}
-                  className="w-full bg-background  text-primary text-center rounded-lg border-[2px] border-primary"
+                <Link
+                  to={link.link}
+                  onClick={handleClose}
+                  className="text-lg font-title w-80 text-white text-center rounded-lg border-[2px] border-primary"
                 >
-                  <Link
-                    to={link.link}
-                    onClick={handleClose}
-                    className="text-lg font-title"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
+                  <li>{link.name}</li>
+                </Link>
               ))}
             </ul>
             <div className="flex flex-col justify-center items-center gap-2 font-subtitle text-primary text-lg">

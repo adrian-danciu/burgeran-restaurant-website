@@ -1,10 +1,11 @@
-import { Hero, TopProducts } from "../components";
+import { AboutBanner, Hero, TopProducts } from "../components";
 
 const Home = () => {
   return (
     <div>
       <Hero />
       <TopProducts />
+      <AboutBanner />
     </div>
   );
 };
