@@ -12,7 +12,7 @@ const Hero = () => {
         <p className="md:text-4xl text-xl text-center lg:w-[60%] w-full font-subtitle text-white">
           Enjoy the best burgers & toasts in town
         </p>
-        <button className="lg:w-50 w-full bg-primary md:p-5 p-3 rounded-xl font-text md:text-xl text-base mt-10 mb-10">
+        <button className="lg:w-80 md:p-5 btn border-black border-[1px] hover:border-primary hover:text-primary hover:bg-background">
           <Link to="/menu">See our menu</Link>
         </button>
       </div>
