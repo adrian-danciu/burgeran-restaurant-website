@@ -2,5 +2,7 @@ import Hero from "./heroBanner";
 import Navbar from "./desktopNavbar";
 import MobileNavbar from "./mobileNavbar";
 import Footer from "./footer";
+import TopProducts from "./topProducts";
+import ProductCard from "./productCard";
 
-export { Hero, Navbar, MobileNavbar, Footer };
+export { Hero, Navbar, MobileNavbar, Footer, TopProducts, ProductCard };

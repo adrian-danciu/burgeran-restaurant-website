@@ -12,8 +12,8 @@
   color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .fullscreen-nav ul {
@@ -47,15 +47,4 @@
 
 .close-btn:focus {
   outline: none;
-}
-
-/* .hero-bg {
-  background-image: url("./assets/img/hero-bg.jpg");
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: auto;
-} */
-
-.hero-bg {
-  background-color: black;
 }
