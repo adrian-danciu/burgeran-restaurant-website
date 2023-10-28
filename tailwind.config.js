@@ -15,6 +15,17 @@ export default {
         subtitle: [
           "Lobster Two", "cursive"
         ]
+      },
+      colors: {
+        background: "#0f0e17",
+        primary: "#ff8906",
+        headline: "#fffffe",
+        text: "#a7a9be",
+        subtitle: "#fffffe",
+        secondary: "#f25f4c",
+        tertiary: "#e53170",
+
+
       }
     },
   },
