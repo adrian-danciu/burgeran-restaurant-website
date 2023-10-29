@@ -1,4 +1,4 @@
-import { AboutBanner, Hero, TopProducts } from "../components";
+import { AboutBanner, Hero, PromotionBanner, TopProducts } from "../components";
 
 const Home = () => {
   return (
@@ -6,6 +6,7 @@ const Home = () => {
       <Hero />
       <TopProducts />
       <AboutBanner />
+      <PromotionBanner />
     </div>
   );
 };

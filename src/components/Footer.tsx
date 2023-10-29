@@ -9,12 +9,12 @@ import instagram from "../assets/icons/instagram.svg";
 
 const Footer = () => {
   return (
-    <section className="w-full bg-primary flex justify-center items-center p-10 mt-20">
-      <div className="w-full flex lg:flex-row lg:justify-between items-center p-5 flex-col justify-center ">
+    <section className="w-full bg-primary flex justify-center items-center p-10 mt-20 ">
+      <div className="w-full flex lg:flex-row lg:justify-around items-center p-5 flex-col justify-center lg:gap-0 gap-10">
         <div className="flex flex-col justify-center items-center gap-5">
           <div className="flex lg:flex-row flex-col justify-center items-center gap-2">
             <img src={logo} className="w-20 h-20" />
-            <p className="font-subtitle text-background text-2xl">Burgeran</p>
+            <p className="font-subtitle text-background text-2xl">Burgerar</p>
           </div>
           <div className="flex flex-col justify-center items-center gap-2 font-subtitle text-background text-lg">
             <p>Call us at: 1293732193127</p>

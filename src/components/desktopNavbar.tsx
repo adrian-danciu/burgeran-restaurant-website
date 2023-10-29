@@ -9,7 +9,6 @@ import { navLinks } from "../utils/navLinks";
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 819);
-  console.log(isMobile);
 
   function handleResize() {
     setIsMobile(window.innerWidth <= 819);
@@ -32,11 +31,11 @@ const Navbar = () => {
         <nav className="bg-[#0f0e17] h-[70px] flex flex-row justify-between items-center w-full px-10">
           <div className="flex flex-row justify-center items-center gap-5">
             <img src={logo} className="w-10 h-10" />
-            <p className="font-subtitle text-headline text-2xl">Burgeran</p>
+            <p className="font-subtitle text-headline text-2xl">Burgerar</p>
           </div>
           <ul className="flex flex-row justify-center items-center gap-20 text-headline font-semibold font-title">
             {navLinks.map((link) => (
-              <li className="hover:text-primary">
+              <li className="hover:text-primary" key={link.name}>
                 <Link to={link.link}>{link.name}</Link>
               </li>
             ))}
