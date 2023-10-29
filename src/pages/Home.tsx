@@ -1,4 +1,10 @@
-import { AboutBanner, Hero, PromotionBanner, TopProducts } from "../components";
+import {
+  AboutBanner,
+  Hero,
+  PromotionBanner,
+  TopProducts,
+  ContactForm,
+} from "../components";
 
 const Home = () => {
   return (
@@ -7,6 +13,7 @@ const Home = () => {
       <TopProducts />
       <AboutBanner />
       <PromotionBanner />
+      <ContactForm />
     </div>
   );
 };

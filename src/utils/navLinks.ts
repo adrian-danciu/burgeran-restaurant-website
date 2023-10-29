@@ -11,8 +11,8 @@ export const navLinks = [
     link: "/menu",
     name: "Menu",
   },
-  {
-    link: "/contact",
-    name: "Contact",
-  },
+  // {
+  //   link: "/#contact",
+  //   name: "Contact",
+  // },
 ];
