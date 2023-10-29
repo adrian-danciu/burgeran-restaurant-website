@@ -7,6 +7,7 @@ import ProductCard from "./productCard";
 import AboutBanner from "./aboutBanner";
 import LocationComponent from "./locationComponent";
 import PromotionBanner from "./promotionBanner";
+import ContactForm from "./contactForm";
 
 export {
   Hero,
@@ -18,4 +19,5 @@ export {
   AboutBanner,
   LocationComponent,
   PromotionBanner,
+  ContactForm,
 };
