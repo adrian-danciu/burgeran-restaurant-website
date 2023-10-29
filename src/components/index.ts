@@ -6,6 +6,7 @@ import TopProducts from "./topProducts";
 import ProductCard from "./productCard";
 import AboutBanner from "./aboutBanner";
 import LocationComponent from "./locationComponent";
+import PromotionBanner from "./promotionBanner";
 
 export {
   Hero,
@@ -16,4 +17,5 @@ export {
   ProductCard,
   AboutBanner,
   LocationComponent,
+  PromotionBanner,
 };

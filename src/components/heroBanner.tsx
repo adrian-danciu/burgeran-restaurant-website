@@ -7,7 +7,7 @@ const Hero = () => {
       <img src={heroBurger} className="lg::w-[30%] w-50" />
       <div className="flex flex-col justify-center items-center lg:w-[60%] w-full text-left lg:gap-5">
         <h1 className="font-subtitle md:text-2xl text-xl md:text-center text-left text-primary">
-          Welcome to Burgeran
+          Welcome to Burgerar
         </h1>
         <p className="md:text-4xl text-xl text-center lg:w-[60%] w-full font-subtitle text-white">
           Enjoy the best burgers & toasts in town

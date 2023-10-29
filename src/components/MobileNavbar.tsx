@@ -43,7 +43,7 @@ const MobileNavbar: React.FC = () => {
       <div className="bg-primary flex flex-row justify-between items-center px-5 h-[53px]">
         <div className="flex flex-row justify-center items-center gap-2">
           <img src={logo} className="w-10 h-10" />
-          <p className="font-subtitle text-background text-2xl">Burgeran</p>
+          <p className="font-subtitle text-background text-2xl">Burgerar</p>
         </div>
         <button onClick={() => setIsOpen(!isOpen)} className="h-50 w-50">
           <img src={mobileMenu} alt="mobile-menu-icon" className="w-5 h-5" />
@@ -73,7 +73,7 @@ const MobileNavbar: React.FC = () => {
             </div>
             <div className="flex flex-col justify-center items-center gap-2">
               <img src={logo} className="w-20 h-20" />
-              <p className="font-subtitle text-headline text-3xl">Burgeran</p>
+              <p className="font-subtitle text-headline text-3xl">Burgerar</p>
             </div>
           </div>
         </div>
