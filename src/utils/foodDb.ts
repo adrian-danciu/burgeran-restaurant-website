@@ -12,6 +12,7 @@ export const foodDb = [
   {
     id: 1,
     name: "Burger",
+    type: "burger",
     price: 10,
     description: "Burger Golden with cheese",
     image: burger1,
@@ -20,6 +21,7 @@ export const foodDb = [
   {
     id: 2,
     name: "Burger",
+    type: "burger",
     price: 10,
     description: "Burger Golden with cheese",
     image: burger2,
@@ -27,6 +29,7 @@ export const foodDb = [
   {
     id: 3,
     name: "Burger",
+    type: "burger",
     price: 10,
     description: "Burger Golden with cheese",
     image: burger3,
@@ -35,6 +38,7 @@ export const foodDb = [
   {
     id: 4,
     name: "Burger",
+    type: "burger",
     price: 10,
     description: "Burger Golden with cheese",
     image: burger4,
@@ -42,6 +46,7 @@ export const foodDb = [
   {
     id: 5,
     name: "Burger",
+    type: "burger",
     price: 10,
     description: "Burger Golden with cheese",
     image: burger5,
@@ -49,6 +54,7 @@ export const foodDb = [
   {
     id: 6,
     name: "Burger",
+    type: "burger",
     price: 10,
     description: "Burger Golden with cheese",
     image: burger6,
@@ -57,6 +63,7 @@ export const foodDb = [
   {
     id: 7,
     name: "Sandwich",
+    type: "toast",
     price: 10,
     description: "Sandwitch with chorizo and lettuce",
     image: sand1,
@@ -65,6 +72,7 @@ export const foodDb = [
   {
     id: 8,
     name: "Sandwich",
+    type: "toast",
     price: 10,
     description: "Sandwitch with chorizo and lettuce",
     image: sand2,
@@ -72,6 +80,7 @@ export const foodDb = [
   {
     id: 9,
     name: "Sandwich",
+    type: "toast",
     price: 10,
     description: "Sandwitch with chorizo and lettuce",
     image: sand3,

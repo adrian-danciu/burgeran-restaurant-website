@@ -49,6 +49,13 @@
   outline: none;
 }
 
+.menu-banner {
+  background-image: url("./assets/img/menu_banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .btn {
   @apply w-full bg-primary  p-3 rounded-xl font-text md:text-xl text-base mt-10 mb-10;
 }
